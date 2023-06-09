@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<slideshow_root>
+
+  <slideshow>
+    <slide_item use_elanat="true">
+      <![CDATA[
+        <div class="el_slideshow_image el_$_asp image_hide_show;" style="animation-name:$_asp change_slide_animation;;background-image: url('$_elanat ::system site_path;client/elanat_slideshow/image/$_asp image_name;');object-fit: $_asp slide_image_object_fit;;height:$_asp slideshow_height;">
+          <div class="el_slideshow_text el_$_asp text_hide_show; el_$_asp zone_use_background;_background" style="text-align:$_asp text_location;;$_asp text_style;"><span>$_asp text;</span></div>
+        </div>
+      ]]>
+    </slide_item>
+    <link>
+      <![CDATA[
+        <a class="el_slideshow_link" target="_blank" href="$_asp slideshow_link;">$_asp item;</a>
+      ]]>
+    </link>
+    <change_slide_under_icon_list_item>
+      <![CDATA[
+        <div class="el_change_slide_icon $_asp first_select;" title="$_asp image_name;" onclick="el_ChangeSlide($_asp image_number;)"></div>
+      ]]>
+    </change_slide_under_icon_list_item>
+    <!-- Note: Tag Name And Value After @keyframes Should Be Equal, Add Tag Name Language in language/[Language_global_name]/[Language_global_name].xml Paths In Elanat Slideshow Module -->
+    <slide_animation_list>
+      <opacity>
+        <![CDATA[
+          @keyframes opacity
+          {
+            from {opacity: 0.4;}
+            to {opacity: 1;}
+          }
+        ]]>
+      </opacity>
+      <zoom_out>
+        <![CDATA[
+          @keyframes zoom_out
+          {
+            from {background-size: 150%;}
+            to {background-size: 100%;}
+          }
+        ]]>
+      </zoom_out>
+      <growth>
+        <![CDATA[
+          @keyframes growth
+          {
+            from {background-size: 50%;}
+            to {background-size: 100%;}
+          }
+        ]]>
+      </growth>
+      <remove_edge>
+        <![CDATA[
+          @keyframes remove_edge
+          {
+            from {border-radius: 200px;}
+            to {border-radius: 0px;}
+          }
+        ]]>
+      </remove_edge>
+      <rotate>
+        <![CDATA[
+          @keyframes rotate
+          {
+            from {transform: rotate(5deg);}
+            to {transform: rotate(0deg);}
+          }
+        ]]>
+      </rotate>
+      <black_and_white>
+        <![CDATA[
+          @keyframes black_and_white
+          {
+            from {filter: grayscale(100%);}
+            to {filter: grayscale(0%);}
+          }
+        ]]>
+      </black_and_white>
+      <up_to_down>
+        <![CDATA[
+          @keyframes up_to_down
+          {
+            from {background-position-y: -200px;}
+            to {background-position-y: 0px;}
+          }
+        ]]>
+      </up_to_down>
+    </slide_animation_list>
+  </slideshow>
+
+  <option>
+    <image_item use_elanat="true">
+      <![CDATA[
+      <div id="div_Index_$_asp indexer;" class="el_image_box">
+        <div class="el_item">
+          <input id="btn_SetToUp_$_asp indexer;" type="button" value="↑" class="el_button_input" onclick="el_SetToUp($_asp indexer;);" />
+          <input id="btn_SetToDown_$_asp indexer;" type="button" value="↓" class="el_button_input" onclick="el_SetToDown($_asp indexer;);" />
+          <input type="button" value="$_asp_lang delete;" class="el_button_input" onclick="el_DeleteImage(this, '$_asp image_name;')" />
+        </div>
+        <div class="el_item">
+	        <span class="el_checkbox_input"><input type="checkbox" $_asp checked;="$_asp checked;" id="cbx_SlideshowImageActive_$_asp indexer;" name="cbx_SlideshowImageActive_$_asp indexer;"><label for="cbx_SlideshowImageActive_$_asp indexer;">active image</label></span>
+        </div>
+        <div class="el_item">
+	        $_asp image_name;
+        </div>
+        <div class="el_item">
+	        <img src="$_elanat ::system site_path;client/elanat_slideshow/image/$_asp image_name;" alt="$_asp image_name;" class="el_image">
+        </div>
+        <div class="el_item">
+          $_asp_lang link_href;
+        </div>
+        <div class="el_item">
+          <input id="txt_SlideshowImageLink_$_asp indexer;" name="txt_SlideshowImageLink_$_asp indexer;" type="text" value="$_asp image_link;" class="el_long_text_input el_left_to_right" maxlength="400" />
+        </div>
+        <div class="el_item">
+          $_asp_lang text;
+        </div>
+        <div class="el_item">
+          <textarea id="txt_SlideshowImageText_$_asp indexer;" name="txt_SlideshowImageText_$_asp indexer;" class="el_textarea_input">$_asp image_text;</textarea>
+        </div>
+        <input id="hdn_SlideshowImageName_$_asp indexer;" name="hdn_SlideshowImageName_$_asp indexer;" type="hidden" value="$_asp image_name;" />
+        <hr />
+      </div>
+      ]]>
+    </image_item>
+    <static_head_external_box>
+    <![CDATA[
+    <script type="text/javascript" src="$_asp site_path;client/elanat_slideshow/script/elanat_slideshow.js"></script>
+    <link rel="stylesheet" type="text/css" href="$_asp site_path;client/elanat_slideshow/style/elanat_slideshow.css" />
+		]]>
+    </static_head_external_box>
+  </option>
+  
+</slideshow_root>

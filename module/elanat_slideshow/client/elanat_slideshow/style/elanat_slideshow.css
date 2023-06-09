@@ -1,0 +1,127 @@
+.el_slideshow 
+{
+    margin: 0px auto;
+	width: 100%;
+}
+
+.el_slideshow .el_slideshow_image
+{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-duration: 2s;
+	background-size: cover;
+}
+
+/* Reserve */
+/* Reserve height: 100px; */
+.el_slideshow .el_next
+{
+    background-color: #000;
+    width: 20px;
+    height: 100px;
+    cursor: pointer;
+    background-image: url('/client/image/aggregation_32.png');
+    background-position: 3px -2204px;
+    float: right;
+    opacity: 0.7;
+}
+
+
+
+/* Reserve */
+/* Reserve height: 100px; */
+.el_slideshow .el_previous
+{
+    background-color: #000;
+    width: 20px;
+    height: 100px;
+    cursor: pointer;
+    background-image: url('/client/image/aggregation_32.png');
+    background-position: 3px -6556px;
+    float: left;
+    opacity: 0.7;
+}
+
+.el_slideshow .el_change_slide_under_icon
+{
+    height: 20px;
+    text-align: center;
+    display: table;
+    margin: -25px auto 0px;
+    opacity: 0.7;
+}
+
+.el_slideshow .el_change_slide_icon
+{
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+	background-color: #a8a8a8;
+	border-radius: 25px;
+    float: left;
+    margin: 0px 4px;
+}
+
+.el_slideshow .el_change_slide_icon.el_select
+{
+    background-color: #3c3c3c !important;
+}
+
+.el_slideshow .el_slideshow_link
+{
+    cursor: pointer;
+}
+
+.el_slideshow .el_slideshow_text
+{
+    font-size: 60px;
+    color: #eee;
+    text-shadow: -2px 2px #000;
+    height: auto;
+    padding: 0px 40px;
+    width: calc(100% - 80px);
+    line-height: 66px;
+    vertical-align: middle;
+    display: table-cell !important;
+}
+
+
+
+
+@media (max-width: 1200px) 
+{
+	.el_slideshow .el_slideshow_text
+	{
+	  font-size: 55px !important;
+	}
+}
+
+@media (max-width: 900px) 
+{
+	.el_slideshow .el_slideshow_text
+	{
+	  font-size: 50px !important;
+	}
+}
+
+@media (max-width: 720px) 
+{
+	.el_slideshow .el_slideshow_text
+	{
+	  font-size: 45px !important;
+	}
+}
+
+@media (max-width: 480px) 
+{
+	.el_slideshow .el_slideshow_text
+	{
+	  font-size: 40px !important;
+	}
+}
+
+.el_slideshow .el_slideshow_text.el_use_background span
+{
+    background-color: rgba(0,0,0,.5);
+}

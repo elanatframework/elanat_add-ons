@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<validation_root>
+  <validation_list>
+
+    <DropDownList id="ddlst_SlideImageObjectFit" type="string" label="slide_image_object_fit" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_TextLocation" type="string" label="text_location" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <DropDownList id="ddlst_ChangeSlideAnimation" type="string" label="change_slide_animation" min_count="1" max_length="50" important="true" client_injection_check="true" />
+    <TextBox id="txt_ChangeSlideDelay" type="number" label="change_slide_delay" category="" start_range="2000" end_range="20000" important="true" />
+    <TextBox id="txt_SlideshowHeight" type="number" label="slideshow_height" category="" start_range="90" end_range="2160" important="true" />
+    <TextBox id="txt_SlideshowWidth" type="number" label="slideshow_width" category="" start_range="160" end_range="3840" important="true" />
+    <TextBox id="txt_TextStyle" type="string" label="text_style" category="" min_count="0" max_length="400" important="false" />
+
+  </validation_list>
+</validation_root>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <black_and_white>black and white</black_and_white>
+    <center>center</center>
+    <change_slide_animation>change slide animation</change_slide_animation>
+    <change_slide_delay>change slide delay</change_slide_delay>
+    <contain>contain</contain>
+    <cover>cover</cover>
+    <delete>delete</delete>
+    <elanat_slideshow>elanat slideshow</elanat_slideshow>
+    <elanat_slideshow_images_list_was_save>elanat slideshow images list was save</elanat_slideshow_images_list_was_save>
+    <elanat_slideshow_images>elanat slideshow images</elanat_slideshow_images>
+    <elanat_slideshow_upload_image>elanat slideshow upload image</elanat_slideshow_upload_image>
+    <elanat_slideshow_option_was_save>elanat slideshow option was save</elanat_slideshow_option_was_save>
+    <fill>fill</fill>
+    <growth>growth</growth>
+    <image_path>image path</image_path>
+    <image_was_upload>image was upload</image_was_upload>
+    <include_text>include text</include_text>
+    <left>left</left>
+    <link_href>link href</link_href>
+    <opacity>opacity</opacity>
+    <please_fill_image_path_field_because_this_is_necessary>please fill image path field because this is necessary</please_fill_image_path_field_because_this_is_necessary>
+    <please_fill_image_upload_field_because_this_is_necessary>please fill image upload field because this is necessary</please_fill_image_upload_field_because_this_is_necessary>
+    <refresh>refresh</refresh>
+    <remove_edge>remove edge</remove_edge>
+    <right>right</right>
+    <rotate>rotate</rotate>
+    <save_elanat_slideshow_images>save elanat slideshow images</save_elanat_slideshow_images>
+    <save_elanat_slideshow_option>save elanat slideshow option</save_elanat_slideshow_option>
+    <slide_image_object_fit>slide image object fit</slide_image_object_fit>
+    <slideshow_height>slideshow height</slideshow_height>
+    <slideshow_use_internal_box>slideshow use internal box</slideshow_use_internal_box>
+    <slideshow_use_max_width>slideshow use max width</slideshow_use_max_width>
+    <slideshow_width>slideshow width</slideshow_width>
+    <start_upload>start upload</start_upload>
+    <text>text</text>
+    <text_location>text location</text_location>
+    <text_style>text style</text_style>
+    <unset>unset</unset>
+    <up_to_down>up to down</up_to_down>
+    <upload_image>upload image</upload_image>
+    <use_image_path>use image path</use_image_path>
+    <use_text_background>use text background</use_text_background>
+    <you_should_select_a_image_extension>you should select a image extension</you_should_select_a_image_extension>
+    <zoom_out>zoom out</zoom_out>
+
+  </add_ons_language>
+</add_ons_language_root>

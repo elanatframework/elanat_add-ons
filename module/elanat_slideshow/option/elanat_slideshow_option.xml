@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<elanat_slideshow_option_root>
+  <option>
+    <slideshow_use_internal_box active="true" />
+    <slideshow_use_max_width active="true" />
+    <include_text active="true" />
+    <use_text_background active="true" />
+    <slideshow_width value="1200" />
+    <slideshow_height value="480" />
+    <!-- Note: value By Milisecond -->
+    <change_slide_delay value="5000" />
+    <!-- Note: value = contain, cover, fill, unset -->
+    <slide_image_object_fit value="cover" />
+    <!-- Note: value = right, left, center, unset -->
+    <text_location value="unset" />
+    <!-- Note: value = Select From slide_animation_list Tag In template.xml -->
+    <change_slide_animation value="opacity" />
+    <text_style value="" />
+  </option>
+  <image_list>
+    <image name="forest.jpg" link="" text="" />
+    <image name="city.jpg" link="" text="" />
+    <image name="sea.jpg" link="" text="" />
+    <image name="desert.jpg" link="" text="" />
+  </image_list>
+</elanat_slideshow_option_root>

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ElanatSlideshowUploadImage.aspx.cs" Inherits="elanat.ActionElanatSlideshowUploadImage" %>

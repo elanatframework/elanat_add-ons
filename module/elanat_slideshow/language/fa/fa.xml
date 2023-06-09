@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <black_and_white>سیاه و سفید</black_and_white>
+    <center>مرکز</center>
+    <change_slide_animation>انیمیشن تغییر اسلاید</change_slide_animation>
+    <change_slide_delay>تاخیر در تغییر اسلاید</change_slide_delay>
+    <contain>شامل</contain>
+    <cover>پوشش</cover>
+    <delete>حذف</delete>
+    <elanat_slideshow>نمایش اسلاید اعلانات</elanat_slideshow>
+    <elanat_slideshow_images_list_was_save>تصاویر نمایش اسلاید اعلانات ذخیره شد</elanat_slideshow_images_list_was_save>
+    <elanat_slideshow_images>تصاویر نمایش اسلاید اعلانات</elanat_slideshow_images>
+    <elanat_slideshow_upload_image>بارگذاری تصویر نمایش اعلانات</elanat_slideshow_upload_image>
+    <elanat_slideshow_option_was_save>گزینه نمایش اسلاید اعلانات ذخیره شد</elanat_slideshow_option_was_save>
+    <fill>پر</fill>
+    <growth>رشد</growth>
+    <image_path>مسیر تصویر</image_path>
+    <image_was_upload>تصویر بارگذاری شد</image_was_upload>
+    <include_text>شامل متن</include_text>
+    <left>چپ</left>
+    <link_href>href لینک</link_href>
+    <opacity>کدری</opacity>
+    <please_fill_image_path_field_because_this_is_necessary>لطفا فیلد مسیر تصویر را پر کنید چون ضروری است</please_fill_image_path_field_because_this_is_necessary>
+    <please_fill_image_upload_field_because_this_is_necessary>لطفا فیلد بارگذاری تصویر را پر کنید چون ضروری است</please_fill_image_upload_field_because_this_is_necessary>
+    <refresh>تازه سازی</refresh>
+    <remove_edge>برداشتن لبه</remove_edge>
+    <right>راست</right>
+    <rotate>چرخش</rotate>
+    <save_elanat_slideshow_images>ذخیره تصاویر نمایش اسلاید اعلانات</save_elanat_slideshow_images>
+    <save_elanat_slideshow_option>ذخیره گزینه نمایش اسلاید اعلانات</save_elanat_slideshow_option>
+    <slide_image_object_fit>تناسب شی تصویر اسلاید</slide_image_object_fit>
+    <slideshow_height>طول نمایش اسلاید</slideshow_height>
+    <slideshow_use_internal_box>استفاده از جعبه داخلی نمایش اسلاید</slideshow_use_internal_box>
+    <slideshow_use_max_width>استفاده از نهایت عرض نمایش اسلاید</slideshow_use_max_width>
+    <slideshow_width>عرض نمایش اسلاید</slideshow_width>
+    <start_upload>شروع بارگذاری</start_upload>
+    <text>متن</text>
+    <text_location>مکان متن</text_location>
+    <text_style>استایل متن</text_style>
+    <unset>باز نشاندن</unset>
+    <up_to_down>بالا به پایین</up_to_down>
+    <upload_image>بارگذاری تصویر</upload_image>
+    <use_image_path>استفاده از مسیر تصویر</use_image_path>
+    <use_text_background>استفاده از پس زمینه متن</use_text_background>
+    <you_should_select_a_image_extension>شما باید یک الگوی تصویر را انتخاب کنید</you_should_select_a_image_extension>
+    <zoom_out>خارج شدن از بزرگنمایی</zoom_out>
+	
+</add_ons_language>
+</add_ons_language_root>
