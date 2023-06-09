@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <command_has_been_set>دستور تنظیم شده است</command_has_been_set>
+    <run_sql_query>اجرای کوئری اس کیو ال</run_sql_query>
+    <set_sql_command>تعیین کوئری اس کیو ال</set_sql_command>
+    <sql_command>دستور کوئری اس کیو ال</sql_command>
+    <sql_query>کوئری اس کیو ال</sql_query>
+
+  </add_ons_language>
+</add_ons_language_root>

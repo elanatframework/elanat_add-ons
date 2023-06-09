@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<template_root>
+
+  <table>
+    <table_box>
+    <![CDATA[
+      <table>
+        $_asp item;
+      </table>
+    ]]>
+    </table_box>
+    <table_row>
+    <![CDATA[
+      <tr>
+        $_asp row;
+      </tr>
+    ]]>
+    </table_row>
+    <table_cell>
+    <![CDATA[
+      <td>
+         $_asp cell;
+      </td>
+    ]]>
+    </table_cell>
+  </table>
+  
+</template_root>

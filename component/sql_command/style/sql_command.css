@@ -1,0 +1,33 @@
+﻿body
+{
+    height: 1300px;
+}
+
+.el_use_scroll
+{
+    overflow: scroll;
+    width: 100%;
+    position: absolute;
+}
+
+#div_SqlQueryTable
+{
+  max-height: 800px;
+}
+
+#div_SqlQueryTable table
+{
+  margin-bottom: 20px;
+}
+
+#div_SqlQueryTable td
+{
+  padding: 4px;
+  border: 1px solid #ddd;
+}
+
+#div_SqlQueryTable tr:first-child
+{
+  background-color: #eee;
+  font-weight: bold;
+}
