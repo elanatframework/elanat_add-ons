@@ -1,0 +1,64 @@
+<div id="div_template_image_ImagePreview">
+  <div class="el_part_row">
+	<div class="el_title">
+	  $_lang also_read;
+	</div>
+	<div class="el_item">
+		$_lang link_value;
+	</div>
+	<div class="el_item">
+		<input id="txt_LinkValue" type="text" value="" class="el_text_input el_important_field" maxlength="400">
+	</div>
+	<div class="el_item">
+		$_lang link_title;
+	</div>
+	<div class="el_item">
+		<input id="txt_LinkTitle" type="text" value="" class="el_long_text_input" maxlength="400">
+	</div>
+	<div class="el_item">
+		$_lang link_href;
+	</div>
+	<div class="el_item">
+		<input id="txt_LinkHref" type="text" value="" class="el_long_text_input el_left_to_right el_important_field" maxlength="400">
+	</div>
+	<div class="el_item">
+		$_lang link_rel;
+	</div>
+	<div class="el_item">
+		<input id="txt_LinkRel" type="text" value="" class="el_text_input" maxlength="50">
+	</div>
+	<div class="el_item">
+		$_lang link_protocol;
+	</div>
+	<div class="el_item">
+		<select id="ddlst_LinkProtocol" class="el_alone_select_input">
+			<option value=""></option>
+			<option value="http://">http://</option>
+			<option value="https://">https://</option>
+		</select>
+	</div>
+	<div class="el_item">
+		$_lang target;
+	</div>
+	<div class="el_item">
+		<select id="ddlst_LinkTarget" class="el_alone_select_input el_important_field">
+			<option value="_blank">_blank</option>
+			<option value="_parent">_parent</option>
+			<option value="_self">_self</option>
+			<option value="_top">_top</option>
+		</select>
+	</div>
+	<div class="el_item">
+		$_lang use_box;
+	</div>
+	<div class="el_item">
+		<span class="el_checkbox_input">
+			<input id="cbx_UseBox" type="checkbox" checked="checked"><label for="cbx_UseBox">$_lang use_box;</label>
+		</span>
+	</div>
+	<div class="el_item">
+	  <input type="button" value="$_lang set_also_read;" class="el_button_input" onclick="el_SetAlsoReadToEditorTemplate();el_InsertEditorTemplateValueToWysiwyg()" />
+	</div>
+	<input id="hdn_AlsoReadLanguage" type="hidden" value="$_lang also_read;">
+  </div>
+</div>
