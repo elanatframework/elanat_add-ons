@@ -1,0 +1,39 @@
+.el_faq h3
+{
+	background-color: #ddd;
+	padding: 10px 5px;
+	font-weight: bold;
+	color: #222;
+	font-size: 18px;
+	display: table;
+	width: calc(100% - 10px);
+}
+
+.el_faq span
+{
+	width: calc(100% - 48px);
+	display: table-cell;
+	padding: 0px 4px;
+}
+
+.el_faq p
+{
+    color: #555;
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.el_faq .el_dash
+{
+    width: 20px;
+    float: right;
+    border-bottom: 4px solid green;
+    margin: 10px 10px 0px 0px;
+}
+
+/* Right To Left */
+html[dir="rtl"] .el_faq .el_dash
+{
+    float: left !important;
+    margin: 10px 0px 0px 10px !important;
+}

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <delete>delete</delete>
+    <elanat_gallery>elanat gallery</elanat_gallery>
+    <elanat_gallery_images_list_was_save>elanat gallery images list was save</elanat_gallery_images_list_was_save>
+    <elanat_gallery_images>elanat gallery images</elanat_gallery_images>
+    <elanat_gallery_upload_image>elanat gallery upload image</elanat_gallery_upload_image>
+    <elanat_gallery_option_was_save>elanat gallery option was save</elanat_gallery_option_was_save>
+    <image_path>image path</image_path>
+    <image_was_upload>image was upload</image_was_upload>
+    <please_fill_image_path_field_because_this_is_necessary>please fill image path field because this is necessary</please_fill_image_path_field_because_this_is_necessary>
+    <please_fill_image_upload_field_because_this_is_necessary>please fill image upload field because this is necessary</please_fill_image_upload_field_because_this_is_necessary>
+    <save_elanat_gallery_images>save elanat gallery images</save_elanat_gallery_images>
+    <save_elanat_gallery_option>save elanat gallery option</save_elanat_gallery_option>
+    <gallery_use_internal_box>gallery use internal box</gallery_use_internal_box>
+    <refresh>refresh</refresh>
+    <start_upload>start upload</start_upload>
+    <text>text</text>
+    <upload_image>upload image</upload_image>
+    <use_image_path>use image path</use_image_path>
+    <you_should_select_a_image_extension>you should select a image extension</you_should_select_a_image_extension>
+
+  </add_ons_language>
+</add_ons_language_root>

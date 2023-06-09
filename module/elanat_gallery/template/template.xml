@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gallery_root>
+
+  <gallery>
+    <gallery_item use_elanat="true">
+      <![CDATA[
+        <div class="el_gallery_thumbinal_image"><img class="el_image_preview" id="img_ImagePreview$_asp image_name;" src="/client/elanat_gallery/image/thumb/$_asp image_name;" alt="$_asp text;" title="$_asp text;" onclick="el_ShowImageInBox(this, true)" /></div>
+      ]]>
+    </gallery_item>
+  </gallery>
+
+  <option>
+    <image_item use_elanat="true">
+      <![CDATA[
+      <div id="div_Index_$_asp indexer;" class="el_image_box">
+        <div class="el_item">
+          <input id="btn_SetToUp_$_asp indexer;" type="button" value="↑" class="el_button_input" onclick="el_SetToUp($_asp indexer;);" />
+          <input id="btn_SetToDown_$_asp indexer;" type="button" value="↓" class="el_button_input" onclick="el_SetToDown($_asp indexer;);" />
+          <input type="button" value="$_asp_lang delete;" class="el_button_input" onclick="el_DeleteImage(this, '$_asp image_name;')" />
+        </div>
+        <div class="el_item">
+	        <span class="el_checkbox_input"><input type="checkbox" $_asp checked;="$_asp checked;" id="cbx_GalleryImageActive_$_asp indexer;" name="cbx_GalleryImageActive_$_asp indexer;"><label for="cbx_GalleryImageActive_$_asp indexer;">active image</label></span>
+        </div>
+        <div class="el_item">
+	        $_asp image_name;
+        </div>
+        <div class="el_item">
+	        <img src="$_elanat ::system site_path;client/elanat_gallery/image/$_asp image_name;" alt="$_asp image_name;" class="el_image">
+        </div>
+        <div class="el_item">
+          $_asp_lang text;
+        </div>
+        <div class="el_item">
+          <textarea id="txt_GalleryImageText_$_asp indexer;" name="txt_GalleryImageText_$_asp indexer;" class="el_textarea_input">$_asp image_text;</textarea>
+        </div>
+        <input id="hdn_GalleryImageName_$_asp indexer;" name="hdn_GalleryImageName_$_asp indexer;" type="hidden" value="$_asp image_name;" />
+        <hr />
+      </div>
+      ]]>
+    </image_item>
+    <static_head_external_box>
+    <![CDATA[
+    <script type="text/javascript" src="$_asp site_path;client/elanat_gallery/script/elanat_gallery.js"></script>
+    <link rel="stylesheet" type="text/css" href="$_asp site_path;client/elanat_gallery/style/elanat_gallery.css" />
+		]]>
+    </static_head_external_box>
+  </option>
+  
+</gallery_root>

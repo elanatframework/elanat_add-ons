@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <add>درج</add>
+    <answer>پاسخ</answer>
+    <delete>حذف</delete>
+    <elanat_faq>پرسش های متداول اعلانات</elanat_faq>
+    <elanat_faqs_list_was_save>پرسش های متداول اعلانات ذخیره شد</elanat_faqs_list_was_save>
+    <elanat_faqs> پرسش های متداول اعلانات</elanat_faqs>
+    <elanat_faq_option_was_save>گزینه پرسش های متداول اعلانات ذخیره شد</elanat_faq_option_was_save>
+    <question>پرسش</question>
+    <save_elanat_faq_option>ذخیره گزینه پرسش های متداول اعلانات</save_elanat_faq_option>
+    <save_elanat_faqs>ذخیره پرسش های متداول اعلانات</save_elanat_faqs>
+    <faq_use_internal_box>استفاده از جعبه داخلی پرسش های متداول</faq_use_internal_box>
+	
+  </add_ons_language>
+</add_ons_language_root>

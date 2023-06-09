@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<add_ons_language_root>
+  <add_ons_language>
+
+    <add>add</add>
+    <answer>answer</answer>
+    <delete>delete</delete>
+    <elanat_faq>elanat faq</elanat_faq>
+    <elanat_faqs_list_was_save>elanat faqs list was save</elanat_faqs_list_was_save>
+    <elanat_faqs>elanat faqs</elanat_faqs>
+    <elanat_faq_option_was_save>elanat faq option was save</elanat_faq_option_was_save>
+    <question>question</question>
+    <save_elanat_faq_option>save elanat faq option</save_elanat_faq_option>
+    <save_elanat_faqs>save elanat faqs</save_elanat_faqs>
+    <faq_use_internal_box>faq use internal box</faq_use_internal_box>
+
+  </add_ons_language>
+</add_ons_language_root>

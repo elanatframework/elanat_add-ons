@@ -1,0 +1,26 @@
+.el_image_preview
+{
+    cursor: pointer;
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+}
+
+.el_gallery_thumbinal_image
+{
+    float: left;
+    width: 128px;
+    height: 128px;
+    margin: 2.5px;
+}
+
+/* Right To Left */
+html[dir="rtl"] .el_gallery_thumbinal_image
+{
+    float: right !important;
+}
+
+.el_gallery_thumbinal_image:hover
+{
+    opacity: .6;
+}

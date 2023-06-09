@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<faq_root>
+
+  <faq>
+    <faq_item use_elanat="true">
+      <![CDATA[
+      <h3 class="el_pointer" onclick="el_ShowFaq('p_faq$_asp faq_number;')">
+        <span>$_asp faq_question;</span>
+        <div class="el_dash"></div>
+      </h3>
+      <p id="p_faq$_asp faq_number;" class="el_hide">
+        $_asp faq_answer;
+      </p>
+      <br />
+      ]]>
+    </faq_item>
+  </faq>
+
+  <option>
+    <faq_item use_elanat="true">
+      <![CDATA[
+      <div id="div_Index_$_asp indexer;" class="el_faq_box">
+        <div class="el_item">
+          <input id="btn_SetToUp_$_asp indexer;" type="button" value="↑" class="el_button_input" onclick="el_SetToUp($_asp indexer;);" />
+          <input id="btn_SetToDown_$_asp indexer;" type="button" value="↓" class="el_button_input" onclick="el_SetToDown($_asp indexer;);" />
+          <input type="button" value="$_asp_lang delete;" class="el_button_input" onclick="el_DeleteFaq(this)" />
+        </div>
+        <div class="el_item">
+          $_asp_lang question;
+        </div>
+        <div class="el_item">
+          <input id="txt_FaqQuestion_$_asp indexer;" name="txt_FaqQuestion_$_asp indexer;" type="text" value="$_asp faq_question;" class="el_long_text_input" />
+        </div>
+        <div class="el_item">
+          $_asp_lang answer;
+        </div>
+        <div class="el_item">
+          <textarea id="txt_FaqAnswer_$_asp indexer;" name="txt_FaqAnswer_$_asp indexer;" class="el_textarea_input">$_asp faq_answer;</textarea>
+        </div>
+        <hr />
+      </div>
+      ]]>
+    </faq_item>
+    <static_head_external_box>
+    <![CDATA[
+    <script type="text/javascript" src="$_asp site_path;client/elanat_faq/script/elanat_faq.js"></script>
+    <link rel="stylesheet" type="text/css" href="$_asp site_path;client/elanat_faq/style/elanat_faq.css" />
+		]]>
+    </static_head_external_box>
+  </option>
+  
+</faq_root>
