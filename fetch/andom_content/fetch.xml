@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fetch_root>
+  <sql_query><![CDATA[select top(1) content_id, content_title from el_content order by newid()]]></sql_query>
+  <box><![CDATA[$_asp item;
+		]]></box>
+  <list_item use_language="true"><![CDATA[<input id="btn_GoToRandomContent" type="button" class="el_button_input" value="$_lang get_random_content;" onclick="el_GoToPath(ElanatVariant.SitePath + 'content/$_db content_id;/$_db content_title;.html')">
+		]]></list_item>
+  <item>
+    <content_title>$_db content_title;</content_title>
+    <content_id>$_db content_id;</content_id>
+  </item>
+  <static_head><![CDATA[]]></static_head>
+  <load_tag><![CDATA[]]></load_tag>
+</fetch_root>

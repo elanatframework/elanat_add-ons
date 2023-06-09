@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fetch_root>
+  <sql_query><![CDATA[select top(10) user_site_name from el_user order by user_date_create desc]]></sql_query>
+  <box><![CDATA[<ul>
+    $_asp item;
+</ul>
+		]]></box>
+  <list_item><![CDATA[<li>
+    <a href="/page_content/public_user_info/name/$_db user_site_name;/" title="$_db user_site_name;" target="_top">$_db user_site_name;</a>
+</li>
+		]]></list_item>
+  <item>
+    <user_site_name>$_db user_site_name;</user_site_name>
+  </item>
+  <static_head><![CDATA[]]></static_head>
+  <load_tag><![CDATA[]]></load_tag>
+</fetch_root>
