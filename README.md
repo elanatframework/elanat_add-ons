@@ -6,3 +6,24 @@ https://elanat.net/page_content/add_ons
 
 Set athour tag format like below text:
 <add-ons_name_author value="elanat developed by you" />
+
+According to the list below, There are 8 different types of add-ons in Elanat:
+
+ - Component
+ - Module
+ - Plugin
+ - Patch
+ - Page
+ - Fetch
+ - Extra helper
+ - Editor template
+
+There are other items such as language, template and style in the following list:
+
+ - Admin style
+ - Admin template
+ - Site style
+ - Site template
+ - Language
+
+The directory of all the items of both lists has been added in this repository. There may be a directory with the same name as the parent directory along with the underscore character (_) and the word raw in these cases, which constitutes a raw directory of these cases.
