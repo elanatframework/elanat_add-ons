@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fetch_root>
+  <sql_query><![CDATA[SELECT top(10) user_site_name, count(*) as user_content_count FROM el_content left join el_user on el_user.user_id = el_content.user_id  where el_content.content_status = 'active' GROUP BY user_site_name order by user_content_count desc]]></sql_query>
+  <box><![CDATA[<ul>
+    $_asp item;
+</ul>]]></box>
+  <list_item><![CDATA[    <li>
+        <a href="/page_content/public_user_info/name/$_db user_site_name;/" title="$_db user_site_name;" rel="follow"  target="_top">$_db user_site_name; ($_db user_content_count;)</a>
+    </li>
+		]]></list_item>
+  <item>
+    <user_content_count>$_db user_content_count;</user_content_count>
+    <user_site_name>$_db user_site_name;</user_site_name>
+  </item>
+  <static_head><![CDATA[]]></static_head>
+  <load_tag><![CDATA[]]></load_tag>
+</fetch_root>
