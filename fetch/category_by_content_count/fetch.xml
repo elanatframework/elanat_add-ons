@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<fetch_root>
+  <sql_query><![CDATA[SELECT category_name, count(*) as category_content_count FROM el_content left join el_category on el_category.category_id = el_content.category_id where el_category.category_active=1 and el_content.content_status = 'active' GROUP BY category_name]]></sql_query>
+  <box><![CDATA[<ul>
+    $_asp item;
+</ul>
+		]]></box>
+  <list_item><![CDATA[    <li>
+        <a href="/category/$_db category_name;/" title="$_db category_name;" rel="follow" target="_top">$_db category_name; ($_db category_content_count;)</a>
+    </li>
+		]]></list_item>
+  <item>
+    <category_content_count>$_db category_content_count;</category_content_count>
+    <category_name>$_db category_name;</category_name>
+  </item>
+  <static_head><![CDATA[]]></static_head>
+  <load_tag><![CDATA[]]></load_tag>
+</fetch_root>
