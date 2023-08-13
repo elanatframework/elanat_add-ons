@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="elanat.ModuleElanatSlideshow" %>
+<%@ Page Controller="Elanat.ModuleElanatSlideshowController" Model="Elanat.ModuleElanatSlideshowModel" %>
 <!-- Start Elanat Slideshow -->
 <div class="el_slideshow" style="max-width:<%=model.SlideshowWidth%>;height:<%=model.SlideshowHeight%>;" onmousemove="el_StopNextSlideInterval()" onmouseout="el_StartNextSlideInterval()">
         <%=model.SlideItem%>
