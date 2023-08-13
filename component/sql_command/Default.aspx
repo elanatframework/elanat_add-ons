@@ -1,20 +1,20 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="elanat.AdminSqlCommand" validateRequest="false" %><!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" dir="<%=elanat.AspxHtmlValue.CurrentAdminLanguageDirection()%>">
+<%@ Page Controller="Elanat.AdminSqlCommandController" Model="Elanat.AdminSqlCommandModel" %><!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="<%=Elanat.AspxHtmlValue.CurrentAdminLanguageDirection()%>">
 <head>
     <title><%=model.SqlCommandLanguage%></title>
-    <script src="<%=elanat.AspxHtmlValue.AdminPath()%>/sql_command/script/sql_command.js"></script>
-    <link rel="stylesheet" type="text/css" href="<%=elanat.AspxHtmlValue.AdminPath()%>/sql_command/style/sql_command.css" />
+    <script src="<%=Elanat.AspxHtmlValue.AdminPath()%>/sql_command/script/sql_command.js"></script>
+    <link rel="stylesheet" type="text/css" href="<%=Elanat.AspxHtmlValue.AdminPath()%>/sql_command/style/sql_command.css" />
     <!-- Start Client Variant -->
-    <script type="text/javascript" src="<%=elanat.AspxHtmlValue.SitePath()%>action/text_creator/admin_client_variant"></script>
-    <script type="text/javascript" src="<%=elanat.AspxHtmlValue.SitePath()%>action/text_creator/admin_client_language_variant"></script>
+    <script type="text/javascript" src="<%=Elanat.AspxHtmlValue.SitePath()%>action/text_creator/admin_client_variant"></script>
+    <script type="text/javascript" src="<%=Elanat.AspxHtmlValue.SitePath()%>action/text_creator/admin_client_language_variant"></script>
     <!-- End Client Variant -->	
-    <script src="<%=elanat.AspxHtmlValue.SitePath()%>client/script/global.js"></script>
-    <script type="text/javascript" src="<%=elanat.AspxHtmlValue.SitePath()%>client/script/admin/admin.js" ></script>
-    <script type="text/javascript" src="<%=elanat.AspxHtmlValue.SitePath()%>client/script/page_load/admin/page_load.js" ></script>
-    <%=elanat.AspxHtmlValue.CurrentAdminStyleTag()%>
-    <link rel="stylesheet" type="text/css" href="<%=elanat.AspxHtmlValue.SitePath()%>client/style/global.css" />
-    <link rel="stylesheet" type="text/css" href="<%=elanat.AspxHtmlValue.SitePath()%>client/style/admin_global.css" />
-    <%=elanat.AspxHtmlValue.CurrentBoxTag()%>
+    <script src="<%=Elanat.AspxHtmlValue.SitePath()%>client/script/global.js"></script>
+    <script type="text/javascript" src="<%=Elanat.AspxHtmlValue.SitePath()%>client/script/admin/admin.js" ></script>
+    <script type="text/javascript" src="<%=Elanat.AspxHtmlValue.SitePath()%>client/script/page_load/admin/page_load.js" ></script>
+    <%=Elanat.AspxHtmlValue.CurrentAdminStyleTag()%>
+    <link rel="stylesheet" type="text/css" href="<%=Elanat.AspxHtmlValue.SitePath()%>client/style/global.css" />
+    <link rel="stylesheet" type="text/css" href="<%=Elanat.AspxHtmlValue.SitePath()%>client/style/admin_global.css" />
+    <%=Elanat.AspxHtmlValue.CurrentBoxTag()%>
 </head>
 <body onload="el_CreateWysiwyg(); el_RunAction(); el_PartPageLoad();">
 
@@ -22,7 +22,7 @@
         <%=model.SqlCommandLanguage%>
     </div>
 
-    <form id="frm_AdminSqlCommand" method="post" action="<%=elanat.AspxHtmlValue.AdminPath()%>/sql_command/Default.aspx">
+    <form id="frm_AdminSqlCommand" method="post" action="<%=Elanat.AspxHtmlValue.AdminPath()%>/sql_command/Default.aspx">
 
         <div class="el_part_row">
             <div id="div_SetSqlCommandTitle" class="el_title" onclick="el_HidePart(this); el_SetIframeAutoHeight()">
