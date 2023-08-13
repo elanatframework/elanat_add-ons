@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="elanat.ModuleElanatFaq" %>
+<%@ Page Controller="Elanat.ModuleElanatFaqController" Model="Elanat.ModuleElanatFaqModel" %>
 <!-- Start Elanat Faq -->
 <div class="el_faq">
     <%=model.FaqItem%>
