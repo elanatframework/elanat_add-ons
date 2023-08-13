@@ -1,1 +1,0 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddFaq.aspx.cs" Inherits="elanat.ActionElanatFaqAddFaq" %>
