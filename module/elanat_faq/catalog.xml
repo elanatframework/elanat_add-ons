@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <module_catalog_root>
   <module_name value="elanat_faq" />
   <module_category value="content" />
@@ -9,13 +9,13 @@
   <module_cache_parameters>
   </module_cache_parameters>
   <module_version_support>
-    <version value="1.0.0.0" />
+    <version value="2.0.0.0" />
   </module_version_support>
   <module_author_website>
   </module_author_website>
   <module_best_load_status value="server" />
-  <module_version value="1.0.0.0" />
-  <module_release_date value="2017/01/01" />
+  <module_version value="2.0.0.0" />
+  <module_release_date value="2017/08/13" />
   <module_info>
   </module_info>
   <module_license>
