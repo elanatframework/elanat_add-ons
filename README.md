@@ -3,7 +3,7 @@
 This is Elanat's external add-on repository. Add-ons are placed in separate directories in this repository. Put these add-ons as you like in your repositories and change them for yourself and add your name after the Elanat name in the athour tag in the catalog files along with the developed by sentence.
 
 We are currently migrating from .NET Standard to .NET Core.
-The migration of the sql command component and the Elanat FAQ module has been completed.
+The migration of the sql command component, Elanat FAQ module and the Elanat Slideshow module has been completed.
 
 Elanat add-ons page:
 https://elanat.net/page_content/add_ons
