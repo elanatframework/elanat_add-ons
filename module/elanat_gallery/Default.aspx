@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="elanat.ModuleElanatGallery" %>
+<%@ Page Controller="Elanat.ModuleElanatGalleryController" Model="Elanat.ModuleElanatGalleryModel" %>
 <!-- Start Elanat Gallery -->
 <div class="el_gallery">
     <%=model.GalleryItem%>
