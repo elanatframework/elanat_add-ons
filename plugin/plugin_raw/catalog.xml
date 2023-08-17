@@ -16,7 +16,7 @@
   <plugin_cache_parameters></plugin_cache_parameters>
 
   <plugin_version_support>
-    <version value="1.0.0.0" />
+    <version value="2.0.0.0" />
   </plugin_version_support>
 
   <plugin_author_website>
@@ -27,7 +27,7 @@
 
   <plugin_version value="1.0.0.0" />
 
-  <plugin_release_date value="2022/07/01"/>
+  <plugin_release_date value="2023/08/31"/>
 
   <plugin_info>
 
