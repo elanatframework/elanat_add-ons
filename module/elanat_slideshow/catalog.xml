@@ -2,7 +2,7 @@
 <module_catalog_root>
   <module_name value="elanat_slideshow" />
   <module_category value="content" />
-  <module_author value="elanat" />
+  <module_author value="Elanat" />
   <module_directory_path value="elanat_slideshow" />
   <module_physical_name value="Default.aspx" />
   <module_replace use_language="false" use_replace_part="false" use_module="false" use_plugin="false" use_elanat="false" use_item="false" use_fetch="false" />
