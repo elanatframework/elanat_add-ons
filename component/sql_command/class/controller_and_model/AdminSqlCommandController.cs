@@ -1,4 +1,4 @@
-﻿using CodeBehind;
+using CodeBehind;
 
 namespace Elanat
 {
@@ -25,9 +25,9 @@ namespace Elanat
             model.SqlQueryValue = context.Request.Form["txt_SqlQuery"].ToString().Replace(Environment.NewLine, " ");
 
 
-            model.RunSqlQuery();
+            Write(model.RunSqlQuery());
 
-            View(model);
+            IgnoreViewAndModel = true;
         }
     }
 }
