@@ -30,34 +30,38 @@ namespace Elanat
                 SumTableRowTemplate = "";
                 SumTableCellTemplate = "";
 
-                if (dbdr.dr != null && dbdr.dr.HasRows)
+                if (dbdr.dr == null || !dbdr.dr.HasRows)
+                {
+                    Write(GlobalClass.AlertAddOnsLanguageVariant("an_error_has_occurred", StaticObject.GetCurrentAdminGlobalLanguage(), "problem", StaticObject.AdminPath + "/sql_command/"));
+                    continue;
+                }
+
+                for (int i = 0; i < dbdr.dr.FieldCount; i++)
+                {
+                    TmpTableCellTemplate = TableCellTemplate;
+
+                    TmpTableCellTemplate = TmpTableCellTemplate.Replace("$_asp cell;", dbdr.dr.GetName(i));
+
+                    SumTableCellTemplate += TmpTableCellTemplate;
+                }
+
+                SumTableRowTemplate += TableRowTemplate.Replace("$_asp row;", SumTableCellTemplate);
+
+                while (dbdr.dr.Read())
+                {
+                    SumTableCellTemplate = "";
+
                     for (int i = 0; i < dbdr.dr.FieldCount; i++)
                     {
                         TmpTableCellTemplate = TableCellTemplate;
 
-                        TmpTableCellTemplate = TmpTableCellTemplate.Replace("$_asp cell;", dbdr.dr.GetName(i));
+                        TmpTableCellTemplate = TmpTableCellTemplate.Replace("$_asp cell;", dbdr.dr[dbdr.dr.GetName(i)].ToString().Replace("<", "&lt;").Replace(">", "&gt;"));
 
                         SumTableCellTemplate += TmpTableCellTemplate;
                     }
 
-                SumTableRowTemplate += TableRowTemplate.Replace("$_asp row;", SumTableCellTemplate);
-
-                if (dbdr.dr != null && dbdr.dr.HasRows)
-                    while (dbdr.dr.Read())
-                    {
-                        SumTableCellTemplate = "";
-
-                        for (int i = 0; i < dbdr.dr.FieldCount; i++)
-                        {
-                            TmpTableCellTemplate = TableCellTemplate;
-
-                            TmpTableCellTemplate = TmpTableCellTemplate.Replace("$_asp cell;", dbdr.dr[dbdr.dr.GetName(i)].ToString().Replace("<", "&lt;").Replace(">", "&gt;"));
-
-                            SumTableCellTemplate += TmpTableCellTemplate;
-                        }
-
-                        SumTableRowTemplate += TableRowTemplate.Replace("$_asp row;", SumTableCellTemplate);
-                    }
+                    SumTableRowTemplate += TableRowTemplate.Replace("$_asp row;", SumTableCellTemplate);
+                }
 
                 CommandTableValue += TableBoxTemplate.Replace("$_asp item;", SumTableRowTemplate);
             }
