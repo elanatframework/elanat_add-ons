@@ -1,4 +1,4 @@
-﻿using CodeBehind;
+using CodeBehind;
 using System.Xml;
 
 namespace Elanat
@@ -30,14 +30,15 @@ namespace Elanat
                 SumTableRowTemplate = "";
                 SumTableCellTemplate = "";
 
-                for (int i = 0; i < dbdr.dr.FieldCount; i++)
-                {
-                    TmpTableCellTemplate = TableCellTemplate;
+                if (dbdr.dr != null && dbdr.dr.HasRows)
+                    for (int i = 0; i < dbdr.dr.FieldCount; i++)
+                    {
+                        TmpTableCellTemplate = TableCellTemplate;
 
-                    TmpTableCellTemplate = TmpTableCellTemplate.Replace("$_asp cell;", dbdr.dr.GetName(i));
+                        TmpTableCellTemplate = TmpTableCellTemplate.Replace("$_asp cell;", dbdr.dr.GetName(i));
 
-                    SumTableCellTemplate += TmpTableCellTemplate;
-                }
+                        SumTableCellTemplate += TmpTableCellTemplate;
+                    }
 
                 SumTableRowTemplate += TableRowTemplate.Replace("$_asp row;", SumTableCellTemplate);
 
