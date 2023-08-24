@@ -1,4 +1,4 @@
-﻿using CodeBehind;
+using CodeBehind;
 
 namespace Elanat
 {
@@ -28,8 +28,9 @@ namespace Elanat
             RunSqlQueryLanguage = aol.GetAddOnsLanguage("run_sql_query");
         }
 
-        public void RunSqlQuery()
+        public string RunSqlQuery()
         {
+            string ReturnValue = "";
             string SqlQuery = SqlQueryValue;
 
             // Check Query Error
@@ -42,16 +43,16 @@ namespace Elanat
 
                 db.Close();
 
-                ResponseForm.WriteLocalAlone(ErrorMessage, "problem");
+                ReturnValue += GlobalClass.Alert(ErrorMessage, StaticObject.GetCurrentAdminGlobalLanguage(), "problem");
 
-                return;
+                return ReturnValue;
             }
 
             SqlQuery = SqlQuery.Replace("&", "$_asp sql_query_amp;");
 
-            ResponseForm rf = new ResponseForm(StaticObject.GetCurrentAdminGlobalLanguage());
-            rf.AddPageLoad(StaticObject.AdminPath + "/sql_command/action/GetSqlQueryTable.aspx?sql_query=" + SqlQuery, "div_SqlQueryTable");
-            rf.RedirectToResponseFormPage();
+            ReturnValue = PageLoader.LoadWithServer(StaticObject.AdminPath + "/sql_command/action/GetSqlQueryTable.aspx?sql_query=" + SqlQuery);
+
+            return ReturnValue;
         }
     }
 }
