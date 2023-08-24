@@ -1,7 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <add_ons_language_root>
   <add_ons_language>
 
+    <an_error_has_occurred>an error has occurred</an_error_has_occurred>
     <command_has_been_set>command has been set</command_has_been_set>
     <run_sql_query>run sql query</run_sql_query>
     <set_sql_command>set sql command</set_sql_command>
