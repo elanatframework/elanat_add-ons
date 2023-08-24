@@ -1,7 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <add_ons_language_root>
   <add_ons_language>
 
+  	<an_error_has_occurred>خطا به وجود آمد</an_error_has_occurred>
     <command_has_been_set>دستور تنظیم شده است</command_has_been_set>
     <run_sql_query>اجرای کوئری اس کیو ال</run_sql_query>
     <set_sql_command>تعیین کوئری اس کیو ال</set_sql_command>
