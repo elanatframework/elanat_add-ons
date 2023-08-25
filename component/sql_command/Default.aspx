@@ -36,7 +36,7 @@
                 <textarea id="txt_SqlQuery" name="txt_SqlQuery" class="el_textarea_input el_left_to_right<%=model.SqlQueryCssClass%>" <%=model.SqlQueryAttribute%>><%=model.SqlQueryValue%></textarea>
             </div>
             <div class="el_item">
-                <input id="btn_RunSqlQuery" name="btn_RunSqlQuery" type="submit" class="el_button_input" value="<%=model.RunSqlQueryLanguage%>" onclick="el_DeleteTableValue();el_DeleteScrollBar();el_AjaxPostBack(this, true, 'frm_AdminSqlCommand');el_AddScrollBar()" />
+                <input id="btn_RunSqlQuery" name="btn_RunSqlQuery" type="submit" class="el_button_input" value="<%=model.RunSqlQueryLanguage%>" onclick="el_DeleteTableValue();el_DeleteScrollBar();el_AjaxPostBack(this, true, 'div_SqlQueryTable');el_AddScrollBar()" />
             </div>
         </div>
 
