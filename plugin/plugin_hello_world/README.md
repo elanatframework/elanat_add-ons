@@ -46,7 +46,6 @@ Finally, create a zip file containing the directory with the same name as the ad
 **Notes:**
  - Note that you will only have two directories in the final zip file; one is the directory with the same name as the add-on type (if your project is a plugin, it is a plugin, if it is a module, it is a module, if it is an extra helper, it is extra_hepler, etc.) in which you have placed the catalog file along with other files such as Default.aspx ; the other is the root directory, where there should be a directory called bin to place the main dll file of the project, and other files and directories added to the root directory will all be copied to the root of the program.
  - The xml catalog file includes more features and you can use all the features of this file to create powerful add-ons.
- - Do not copy ElanatEmptyPlugin.dll file. Ignore this file.
  - When adding a add-on to Elanat, the CodeBehind framework will recompile all aspx pages and this process may take some time.
 
 To test the project, the Program.cs class should look like this:
