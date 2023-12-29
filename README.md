@@ -5,10 +5,12 @@ This is [Elanat's](https://github.com/elanatframework/Elanat) external add-on re
 All add-ons created in C# programming language are compatible with ASP.NET Core. The ASP.NET Core add-ons in this repository are created using the [Code-Behind](https://github.com/elanatframework/Code_behind) backend framework.
 
 Elanat add-ons page:
-https://elanat.net/page_content/add_ons
+
+[https://elanat.net/page_content/add_ons](https://elanat.net/page_content/add_ons)
 
 Set athour tag format like below text:
-<add-ons_name_author value="elanat developed by you" />
+
+`<add-ons_name_author value="elanat developed by you" />`
 
 According to the list below, There are 8 different types of add-ons in Elanat:
 
