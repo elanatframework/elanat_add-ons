@@ -1,4 +1,4 @@
-﻿using System.Data;
+using System.Data;
 using System.Data.SqlClient;
 
 namespace Elanat
@@ -27,6 +27,7 @@ namespace Elanat
             }
             catch (Exception ex)
             {
+                con.Close();
                 ErrorMessage = ex.Message;
                 Security.SetLogError(ex);
                 return null;
@@ -48,6 +49,7 @@ namespace Elanat
             }
             catch (Exception ex)
             {
+                con.Close();
                 ErrorMessage = ex.Message;
                 Security.SetLogError(ex);
                 return null;
@@ -73,6 +75,7 @@ namespace Elanat
             }
             catch (Exception ex)
             {
+                con.Close();
                 ErrorMessage = ex.Message;
                 Security.SetLogError(ex);
             }
@@ -93,6 +96,7 @@ namespace Elanat
             }
             catch (Exception ex)
             {
+                con.Close();
                 ErrorMessage = ex.Message;
                 Security.SetLogError(ex);
             }
@@ -123,6 +127,7 @@ namespace Elanat
             }
             catch (Exception ex)
             {
+                con.Close();
                 ErrorMessage = ex.Message;
 
                 if (ProcedureRoleAccessCheck)
@@ -154,6 +159,7 @@ namespace Elanat
             }
             catch (Exception ex)
             {
+                con.Close();
                 ErrorMessage = ex.Message;
 
                 if (ProcedureRoleAccessCheck)
@@ -188,6 +194,7 @@ namespace Elanat
             }
             catch (Exception ex)
             {
+                con.Close();
                 ErrorMessage = ex.Message;
 
                 if (ProcedureRoleAccessCheck)
@@ -217,6 +224,7 @@ namespace Elanat
             }
             catch (Exception ex)
             {
+                con.Close();
                 ErrorMessage = ex.Message;
 
                 if (ProcedureRoleAccessCheck)
